@@ -5,6 +5,8 @@ import { motion } from "framer-motion";
 import { SignedIn, SignedOut, RedirectToSignIn } from "@clerk/nextjs";
 import Navbar from "../components/Navbar";
 
+//Remember to create logic to update expenses. Expenses will affect needs, wants and savings. Cater this the next time you program.
+
 export default function ExpensesPage() {
   // ✅ Preloaded sample expenses
   const [expenses, setExpenses] = useState([
